@@ -43,8 +43,8 @@ This project provides a set of APIs to manage school data, including adding new 
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/your-username/school-management-api.git
-   cd school-management-api
+   git clone https://github.com/pandasuryanarayan/School-Management-API.git
+   cd School-Management-API
    ```
 
 2. **Install Dependencies**:
@@ -63,13 +63,14 @@ This project provides a set of APIs to manage school data, including adding new 
 
 3. **Configure Environment Variables**:
 
-   Create a `.env` file in the root directory and add your MySQL database credentials:
+   Create a `.env` file in the root directory and add your MySQL database credentials and server PORT number:
 
    ```env
    DB_HOST=localhost
    DB_USER=root
    DB_PASSWORD=password
    DB_NAME=school_management
+   PORT=3000
    ```
 
 4. **Start the Server**:
